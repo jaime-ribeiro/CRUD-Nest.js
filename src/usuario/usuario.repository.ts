@@ -17,7 +17,6 @@ export class UsuarioRepository {
     const possivelUsuario = this.usuarios.find(
       usuario => usuario.email === email
     )
-    console.log(possivelUsuario);
     return possivelUsuario !== undefined;
   }
 }
